@@ -115,5 +115,10 @@ STATIC_ROOT =os.path.join(BASE_DIR,'static')
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
+CORS_ORIGIN_WHITELIST=[
+    "http://localhost:3000","https://vipulprabhu2000.github.io","https://vipulprabhu2000.github.io","https://vipulprabhu2000.github.io","https://vipulprabhu2000.github.io"
+]
+
+
 CORS_ORIGIN_ALLOW_ALL=True
 django_heroku.settings(locals())
